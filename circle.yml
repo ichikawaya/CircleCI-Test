@@ -1,7 +1,6 @@
 test:
   override:
       - ./test.sh
-test:
   post:
       - ./test2.sh
 deployment:
