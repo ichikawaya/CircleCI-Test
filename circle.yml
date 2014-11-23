@@ -1,6 +1,8 @@
 test:
   override:
       - ./test.sh
+test:
+  override:
       - ./test2.sh
 deployment:
   staging:
