@@ -1,3 +1,8 @@
 test:
   override:
       - ./test.sh
+deployment:
+  staging:
+    branch: master
+    commands:
+      - ./deploy.sh
