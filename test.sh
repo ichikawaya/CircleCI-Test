@@ -1,4 +1,4 @@
 #!/bin/sh
 
-echo "test";
+echo "test1";
 exit 1;
