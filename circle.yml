@@ -1,10 +1,10 @@
 test:
   override:
       - ./test.sh
-  post:
-      - ./test2.sh
 deployment:
   staging:
     branch: master
     commands:
       - ./deploy.sh
+      - ./test2.sh
+      - ./deploy2.sh
