@@ -6,5 +6,5 @@ deployment:
     branch: master
     commands:
       - ./deploy.sh
-      - git clone git@github.com:vaddy/vaddy-api-ruby.git && rvm use 2.1.0 && cd ./vaddy-api-ruby/  && ruby vaddy.rb
+      - git clone git@github.com:vaddy/go-vaddy.git && cd ./go-vaddy/bin/  && ./vaddy-linux-64bit
       - ./deploy2.sh
